@@ -4,6 +4,9 @@ import colors from 'tailwindcss/colors';
 import forms from '@tailwindcss/forms';
 import variables from '@mertasan/tailwindcss-variables';
 import typography from '@tailwindcss/typography';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 // Add your custom theme colors here
 export const themeColors = {
@@ -147,5 +150,5 @@ export default {
     variables,
     typography,
   ],
-}
+};
 
